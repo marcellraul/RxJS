@@ -28,9 +28,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/font-awesome/css/font-awesome.min.css",
+              "node_modules/material-icons/css/material-icons.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-docs"
+    }
+  },
+  "defaultProject": "angular-docs",
+  "cli": {
+    "analytics": "e4c72d4d-bbb1-4825-9fe9-d0383536ab8c"
+  }
 }
